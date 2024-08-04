@@ -13,7 +13,7 @@ export class Pokemon extends Model {
   height!: number;
   weight!: number;
   base_experience!: number;
-  sprite_front!: string;
+  sprite_front!: string | null;
   sprite_back!: string | null;
   stat_speed!: number;
   organization_id!: number;

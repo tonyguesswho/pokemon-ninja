@@ -21,8 +21,8 @@
         console.log(response.data.access_token)
         await auth.login(response.data.access_token);
         navigate('/pokemon');
-      } catch (err) {
-        error ='An error occurred';
+      } catch (err: any) {
+        error = err.response.data.message || 'An error occurred';
       }
     }
   </script>

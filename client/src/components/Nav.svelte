@@ -1,4 +1,4 @@
-<!-- src/components/Nav.svelte -->
+
 <script lang="ts">
     import { Link, navigate } from "svelte-routing";
     import { auth } from "../stores/auth";

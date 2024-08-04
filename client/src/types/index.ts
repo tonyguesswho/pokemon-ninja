@@ -11,6 +11,8 @@ export interface User {
     height: number;
     weight: number;
     is_favorite: boolean;
+    sprite_front: string;
+    sprite_back: string
   }
 
   export interface Organization {

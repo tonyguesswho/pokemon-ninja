@@ -1,5 +1,5 @@
 import axios, { type AxiosInstance } from 'axios';
-import type { User, Pokemon, Organization } from '../types';
+import type { Pokemon, Organization } from '../types';
 import { auth } from '../stores/auth';
 
 const api: AxiosInstance = axios.create({
