@@ -216,13 +216,13 @@ npm run test:integration  # For integration tests
 
 
 ### Home Page
-![Home Page](https://github.com/user-attachments/assets/c140cedd-3dab-46e4-bedb-b3bc14aa47ea)
+![Home Page](https://github.com/user-attachments/assets/c140cedd-3dab-46e4-bedb-b3bc14aa47ea?raw=true)
 
 ### Home Page Authenticated
-![Home Page Authenticated](https://github.com/user-attachments/assets/2074fe23-ddfc-4754-906b-30231f219f4f)
+![Home Page Authenticated](https://github.com/user-attachments/assets/2074fe23-ddfc-4754-906b-30231f219f4f?raw=true)
 
 ### Pokemon List
-![Login Page](https://github.com/user-attachments/assets/fec32d18-819d-422b-9018-35b1df231c3d)
+![Login Page](https://github.com/user-attachments/assets/fec32d18-819d-422b-9018-35b1df231c3d?raw=true)
 
 
 
@@ -230,7 +230,7 @@ npm run test:integration  # For integration tests
 ![Login Page](https://github.com/user-attachments/assets/d85f1e05-6d8f-40a7-ba3a-db04c815103b?raw=true)
 
 ### Register page
-![Register Page](https://github.com/user-attachments/assets/31ab0536-0199-47a9-a4ae-6d2efb405fb6)
+![Register Page](https://github.com/user-attachments/assets/31ab0536-0199-47a9-a4ae-6d2efb405fb6?raw=true)
 
 ### Organisation Dropdwon
-![User Profile](https://github.com/user-attachments/assets/e8b0b832-0f10-4365-9a00-87bff0c45212)
+![User Profile](https://github.com/user-attachments/assets/e8b0b832-0f10-4365-9a00-87bff0c45212?raw=true)
