@@ -215,20 +215,22 @@ npm run test:integration  # For integration tests
 
 
 
-### Login Page
-![Login Page](https://github.com/user-attachments/assets/fec32d18-819d-422b-9018-35b1df231c3d)
+### Home Page
+![Home Page](https://github.com/user-attachments/assets/c140cedd-3dab-46e4-bedb-b3bc14aa47ea)
 
-### Registration Page
-![Registration Page](https://github.com/user-attachments/assets/2074fe23-ddfc-4754-906b-30231f219f4f)
+### Home Page Authenticated
+![Home Page Authenticated](https://github.com/user-attachments/assets/2074fe23-ddfc-4754-906b-30231f219f4f)
 
 ### Pokemon List
-![Pokemon List](https://github.com/user-attachments/assets/c140cedd-3dab-46e4-bedb-b3bc14aa47ea)
+![Login Page](https://github.com/user-attachments/assets/fec32d18-819d-422b-9018-35b1df231c3d)
 
-### Pokemon Details
-![Pokemon Details](https://github.com/user-attachments/assets/d85f1e05-6d8f-40a7-ba3a-db04c815103b)
 
-### Favorites List
-![Favorites List](https://github.com/user-attachments/assets/31ab0536-0199-47a9-a4ae-6d2efb405fb6)
 
-### User Profile
+### Login Page
+![Login Page](https://github-production-user-asset-6210df.s3.amazonaws.com/19865565/355084266-d85f1e05-6d8f-40a7-ba3a-db04c815103b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T120931Z&X-Amz-Expires=300&X-Amz-Signature=806bdf544ac974c1d6a0d9316c3e9aaa0cb744d34419efe56dd00984de50079d&X-Amz-SignedHeaders=host&actor_id=19865565&key_id=0&repo_id=837770075)
+
+### Register page
+![Register Page](https://github.com/user-attachments/assets/31ab0536-0199-47a9-a4ae-6d2efb405fb6)
+
+### Organisation Dropdwon
 ![User Profile](https://github.com/user-attachments/assets/e8b0b832-0f10-4365-9a00-87bff0c45212)
