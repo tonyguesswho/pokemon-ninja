@@ -9,6 +9,7 @@
 6. [Frontend](#frontend)
 7. [Testing](#testing)
 8. [Deployment](#deployment)
+9. [Screenshots](#screenshots)
 
 ## Introduction
 
@@ -211,3 +212,23 @@ npm run test:integration  # For integration tests
 
 - Frontend: `https://pokemon-ninja.vercel.app/`
 - Backend: `https://pokemon-ninja.onrender.com/api`
+
+
+
+### Login Page
+![Login Page](https://github.com/user-attachments/assets/fec32d18-819d-422b-9018-35b1df231c3d)
+
+### Registration Page
+![Registration Page](https://github.com/user-attachments/assets/2074fe23-ddfc-4754-906b-30231f219f4f)
+
+### Pokemon List
+![Pokemon List](https://github.com/user-attachments/assets/c140cedd-3dab-46e4-bedb-b3bc14aa47ea)
+
+### Pokemon Details
+![Pokemon Details](https://github.com/user-attachments/assets/d85f1e05-6d8f-40a7-ba3a-db04c815103b)
+
+### Favorites List
+![Favorites List](https://github.com/user-attachments/assets/31ab0536-0199-47a9-a4ae-6d2efb405fb6)
+
+### User Profile
+![User Profile](https://github.com/user-attachments/assets/e8b0b832-0f10-4365-9a00-87bff0c45212)
