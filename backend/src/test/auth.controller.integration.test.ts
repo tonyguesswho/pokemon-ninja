@@ -1,5 +1,3 @@
-// test/auth.controller.integration.spec.ts
-
 import request from 'supertest';
 import {
   setupTestDatabase,

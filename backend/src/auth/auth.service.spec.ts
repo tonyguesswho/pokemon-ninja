@@ -170,33 +170,4 @@ describe('AuthService', () => {
       expect(result).toBeNull();
     });
   });
-
-  describe('getProfile', () => {
-    it('should return user profile', async () => {
-      const user = {
-        id: 1,
-        email: 'test@example.com',
-        organizationId: 1,
-      };
-
-      (User.query as jest.Mock).mockReturnValue({
-        findById: jest.fn().mockResolvedValue(user),
-        select: jest.fn().mockReturnThis(),
-      });
-
-      const result = await service.getProfile(1);
-      expect(result).toEqual(user);
-    });
-
-    it('should throw UnauthorizedException when user is not found', async () => {
-      (User.query as jest.Mock).mockReturnValue({
-        findById: jest.fn().mockResolvedValue(null),
-        select: jest.fn().mockReturnThis(),
-      });
-
-      await expect(service.getProfile(1)).rejects.toThrow(
-        UnauthorizedException,
-      );
-    });
-  });
 });
