@@ -1,5 +1,3 @@
-// src/models/pokemon.model.ts
-
 import { Model } from 'objection';
 import { User } from './user.model';
 import { Organization } from './organization.model';

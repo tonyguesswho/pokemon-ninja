@@ -1,5 +1,3 @@
-// src/scripts/generate-data.ts
-
 import { knex } from '../config/database';
 import { Organization } from '../models/organization.model';
 import { User } from '../models/user.model';

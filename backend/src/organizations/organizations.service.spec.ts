@@ -2,7 +2,7 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { OrganizationsService } from './organizations.service';
 import { Organization } from '../models/organization.model';
 
-// Mock the Organization model
+// Organization model Mock
 jest.mock('../models/organization.model');
 
 describe('OrganizationsService', () => {

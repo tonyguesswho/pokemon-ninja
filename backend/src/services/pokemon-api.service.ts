@@ -1,5 +1,3 @@
-// src/services/pokemon-api.service.ts
-
 import { Injectable, HttpException, HttpStatus } from '@nestjs/common';
 import axios from 'axios';
 import { ConfigService } from '@nestjs/config';

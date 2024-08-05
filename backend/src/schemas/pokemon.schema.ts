@@ -1,5 +1,3 @@
-// src/schemas/pokemon.schema.ts
-
 import * as Joi from 'joi';
 
 export const pokemonListItemSchema = Joi.object({

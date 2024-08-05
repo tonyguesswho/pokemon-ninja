@@ -1,5 +1,3 @@
-// src/models/favorite.model.ts
-
 import { Model } from 'objection';
 import { User } from './user.model';
 import { Pokemon } from './pokemon.model';

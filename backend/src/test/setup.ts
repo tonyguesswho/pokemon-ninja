@@ -78,3 +78,25 @@ export async function createTestUserAndToken(
   });
   return { user, token };
 }
+
+export async function createTestPokemon(name: string, organizationId: number) {
+  return await Pokemon.query().insert({
+    name,
+    organization_id: organizationId,
+    // Add other required fields here
+  });
+}
+
+// export async function createTestUserAndToken(
+//   email: string,
+//   password: string,
+//   organizationId: number,
+// ) {
+//   const user = await createTestUser(email, password, organizationId);
+//   const token = jwtService.sign({
+//     id: user.id,
+//     email: user.email,
+//     organizationId: user.organization_id,
+//   });
+//   return { user, token };
+// }
