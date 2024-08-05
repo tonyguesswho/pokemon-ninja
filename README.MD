@@ -227,7 +227,7 @@ npm run test:integration  # For integration tests
 
 
 ### Login Page
-![Login Page](https://github-production-user-asset-6210df.s3.amazonaws.com/19865565/355084266-d85f1e05-6d8f-40a7-ba3a-db04c815103b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T120931Z&X-Amz-Expires=300&X-Amz-Signature=806bdf544ac974c1d6a0d9316c3e9aaa0cb744d34419efe56dd00984de50079d&X-Amz-SignedHeaders=host&actor_id=19865565&key_id=0&repo_id=837770075)
+![Login Page](https://github.com/user-attachments/assets/d85f1e05-6d8f-40a7-ba3a-db04c815103b?raw=true)
 
 ### Register page
 ![Register Page](https://github.com/user-attachments/assets/31ab0536-0199-47a9-a4ae-6d2efb405fb6)
