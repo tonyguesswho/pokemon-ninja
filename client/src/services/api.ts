@@ -3,7 +3,7 @@ import type { Pokemon, Organization } from '../types';
 import { auth } from '../stores/auth';
 
 const api: AxiosInstance = axios.create({
-  baseURL: 'http://localhost:3000/', // Adjust this to your backend URL
+  baseURL:  import.meta.env.VITE_API_URL
 });
 
 api.interceptors.request.use((config) => {
