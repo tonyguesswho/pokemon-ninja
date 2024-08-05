@@ -19,6 +19,7 @@ const BATCH_SIZE = parseInt(process.env.BATCH_SIZE || '100', 10);
 
 async function clearDatabase() {
   try {
+    await knex('favorites').del();
     await knex('pokemons').del();
     await knex('users').del();
     await knex('organizations').del();
