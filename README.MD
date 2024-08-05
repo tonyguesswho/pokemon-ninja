@@ -54,10 +54,23 @@ npm install
 
 4. Set up the database:
 - Create a PostgreSQL database
-- Copy `.env.example` to `.env` in the backend directory and update the database connection details
+- Copy `.env.sample` to `.env` in the backend directory and update the database connection details
+
+- Genrate initial Data by running
+  `npm run generate-data` script located at `backend/src/scripts/generate-data.tsgenerate-data.ts`
 
 5. Run database migrations:
 `npx knex migrate:latest`
+
+### Testing
+
+Backend
+To run the backend tests:
+cd backend
+`npm run test` for unit tests
+
+For integration test tests:
+`npm run test:integration`
 
 
 ### Running the Application
@@ -71,10 +84,20 @@ npm run start:dev
 cd frontend
 npm run dev
 
+- Copy `.env.sample` to `.env` in the client directory and update the API URL
+
 
 3. Open your browser and navigate to `http://localhost:5173`
 
-## Backend
+- API url = `http://localhost:3000/`
+- Access backend api swagger docs navigate `http://localhost:3000/api`
+
+
+
+### Deployed Application
+- Frontend: `https://pokemon-ninja.vercel.app/`
+
+- Backend - `https://pokemon-ninja.onrender.com/api`
 
 ### API Endpoints
 
@@ -103,30 +126,10 @@ npm run dev
     Request body:
     {
         "email": "user@example.com",
-     "password": "securepassword"
+        "password": "securepassword"
     }
 
     Response:
     {
         "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
     }
-
-
-
-- User authentication (registration and login)
-- Organization-based Pokemon viewing
-- Pagination of Pokemon lists
-- Favoriting/unfavoriting Pokemon
-- Responsive design
-
-
-
-### Testing
-
-Backend
-To run the backend tests:
-cd backend
-`npm run test` for unit tests
-
-For integration test tests:
-`npm run test:integration`
